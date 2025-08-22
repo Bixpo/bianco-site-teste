@@ -1,5 +1,5 @@
 import homeImg from "./img/home.png";
-import Services from "./components/Services"; // O caminho para o novo componente
+import Services from "./components/Services";
 import BlogArticles from "./components/BlogArticles";
 import ContactCTA from "./components/ContactCTA";
 import MapAndCards from "./components/MapAndCards";
@@ -80,8 +80,10 @@ export default function Home() {
       {/* Seção de Contato/CTA */}
       <ContactCTA />
 
+      {/* Seção de Map/Cards */}
       <MapAndCards />
 
+      {/* Seção de Footer */}
       <Footer />
 
       {/* Footer */}

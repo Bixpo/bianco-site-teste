@@ -41,7 +41,7 @@ const BlogArticles = () => {
               src={article.image}
               alt={article.title}
               className="w-full h-full object-cover"
-              style={{ border: '4px solid white' }} // Adicionando a borda branca aqui
+              style={{ border: '4px solid white' }} 
             />
           </div>
 
